@@ -1,0 +1,13 @@
+{
+  "lambdaLayers": [],
+  "permissions": {
+    "storage": {
+      "dynamobbb78899": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    }
+  }
+}

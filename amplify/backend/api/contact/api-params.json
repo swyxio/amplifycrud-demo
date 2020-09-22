@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/contact",
+            "lambdaFunction": "amplifycruddemof20358cb",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "contact",
+    "apiName": "contact",
+    "functionArns": [
+        {
+            "lambdaFunction": "amplifycruddemof20358cb"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-amplifycruddemo-dev-51616-authRole",
+        "unAuthRoleName": "amplify-amplifycruddemo-dev-51616-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "amplifycruddemof20358cb",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ],
+    "uuid": "77fd989d"
+}
